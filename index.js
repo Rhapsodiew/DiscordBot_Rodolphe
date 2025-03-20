@@ -19,8 +19,7 @@ client.once("ready", () => {
 });
 
 const prefix = "?";
-const userSessions = new Map(); // Stockage temporaire des sessions
-
+const userSessions = new Map();
 client.on("messageCreate", async (message) => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
