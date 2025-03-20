@@ -1,0 +1,27 @@
+{
+  "name": "discordbot_rodolphe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhapsodiew/DiscordBot_Rodolphe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rhapsodiew/DiscordBot_Rodolphe/issues"
+  },
+  "homepage": "https://github.com/Rhapsodiew/DiscordBot_Rodolphe#readme",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.3",
+    "discord-api-types": "^0.37.119",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
+  }
+}
