@@ -148,6 +148,7 @@ client.on("messageCreate", async (message) => {
     }
 });
 
+// Commande ?Log Out -> disconnect
 client.on("messageCreate", async (message) => {
     if (message.content.startsWith(`${prefix}logout`)) {
         const userId = message.author.id;
@@ -162,6 +163,7 @@ client.on("messageCreate", async (message) => {
     }
 })
 
+// Commande ?info -> Get Info
 client.on("messageCreate", async (message) => {
     if (!message.content.startsWith(`${prefix}info`) || message.author.bot) return;        
         
