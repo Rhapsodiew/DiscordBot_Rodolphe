@@ -2,6 +2,8 @@
 
 **Rodolphe** is a custom Discord bot built in JavaScript that connects to my school's intranet. It should allows students to access school-related data such as schedules, notifications, and other features directly from Discord.
 
+There are a few problems with the API restrictions of my school's intranet, which lead to errors.
+
 ## 🎓 Key Features
 
 - 📅 Fetch and display data
